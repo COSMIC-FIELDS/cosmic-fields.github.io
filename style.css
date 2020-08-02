@@ -1,0 +1,166 @@
+body {
+	background: url("images/cosmic stars.jpg") no-repeat center top;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
+
+body::-webkit-scrollbar
+{
+	width: 0;
+	height: 0;
+}
+
+footer {
+	position: absolute;
+	bottom: 0.2vw;
+	width: 100%;
+	font-size: 30px;
+	color: #fff;
+	text-align: center;
+}
+
+#particles-js {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#page-wrapper {
+	position: relative;
+}
+
+.topbar {
+	display: inline-block;
+	width: 100%;
+	height: 80px;
+	background: url("images/top bar.jpg") no-repeat center;
+	box-shadow: inset 0 -6px 10px rgba(0, 0, 0, 1);
+}
+
+.toplogo {
+	float: left;
+	padding-left: 20%;
+	margin-top: -4%;
+}
+
+.mainversion {
+	color: #fff;
+	margin-top: 0.5%;
+}
+
+.topversion {
+	color: #fff;
+	float: right;
+	padding-right: 20%;
+	margin: -50px auto;
+}
+
+.mainlogo {
+	margin: 0 auto;
+	margin-top: 80px;
+	height: 65px;
+	width: 30%;
+	background-image: url("images/grid.jpeg");
+	background-size: cover;
+	color: #a02441;
+	font-size: 55px;
+	text-shadow: -1px -1px #fff, 1px -1px #fff, -1px 1px #fff, 1px 1px #fff;
+	box-shadow: inset 0 5px 2px rgba(255, 255, 255, .6), inset 0 -5px 2px rgba(0, 0, 0, .6), inset 0 -10px 1px rgba(0, 0, 0, .3), inset 0 10px 1px rgba(255, 255, 255, .3);
+}
+
+.mainmenu {
+	margin: 5px auto;
+
+}
+
+.topmainmenu {
+	margin: 15px auto;
+
+}
+
+.menu {
+	display: inline-block;
+	width: 7.3%;
+}
+
+.current {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .4s linear;
+	box-shadow: inset 0 5px 4px rgba(255, 255, 255, .6), inset 0 -5px 4px rgba(0, 0, 0, .6), inset 0 -10px 7px rgba(0, 0, 0, .3), inset 0 10px 7px rgba(255, 255, 255, .3);
+	background: url("images/current.gif") no-repeat center bottom;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	color: #fff;
+}
+
+.notcurrent {
+	display: block;
+	padding: 1em;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: .4s linear;
+	box-shadow: inset 0 5px 4px rgba(255, 255, 255, .6), inset 0 -5px 4px rgba(0, 0, 0, .6), inset 0 -10px 7px rgba(0, 0, 0, .3), inset 0 10px 7px rgba(255, 255, 255, .3);
+	background: url("images/buttonground.jpg") no-repeat center bottom;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+	color: #fff;
+}
+
+.menu a:hover {
+	background: #00838f;
+
+}
+
+.CenterBar {
+	color: #fff;
+	font-size: 20px;
+	width: 29%;
+	margin: 0 auto;
+	background: black;
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	border-left: 2px solid #fff;
+	border-right: 2px solid #fff;
+}
+
+.RendersBlock {
+	scrollbar-width: none;
+	overflow: auto;
+	height: 100%;
+	width: 75vw;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: #fff;
+	padding: 1%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.OneRender img {
+	border-radius: 15px;
+	box-shadow: 2px 2px rgba(255, 255, 255, .75), -2px -2px rgba(255, 255, 255, .75), 2px -2px rgba(255, 255, 255, .75), -2px 2px rgba(255, 255, 255, .75);
+	margin-top: 1vh;
+	margin-bottom: 4vh;
+	transition: .1s linear;
+}
+
+.OneRender img:hover {
+	box-shadow: 5px 5px 15px rgba(28, 18, 209, 0.3), -5px -5px 15px rgba(28, 18, 209, 0.3), 5px -5px 15px rgba(28, 18, 209, 0.3), -5px 5px 15px rgba(28, 18, 209, 0.3);
+}
+
+.iframe {
+padding: 10px;
+}
